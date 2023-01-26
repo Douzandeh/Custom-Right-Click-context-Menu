@@ -5,3 +5,6 @@ document.addEventListener("contextmenu" , (e) =>{
     contextMenu.style.visibility = "visible"
 })
 
+document.addEventListener("click", ()=>{
+    contextMenu.style.visibility = "hidden"
+})
