@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/f17bf0e778.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/f17bf0e778.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Custom Right Click context Menu</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="content">
-            <ul class="menu">
-                <li class="item">
-                    <i class="fa-solid fa-eye"></i>
-                    <span>Preview</span>
-                </li>
-                <li class="item share">
-                   <div>
-                    <i class="fa-solid fa-share"></i>
-                    <span>Share</span>
-                   </div>
-                   <i class="fa-solid fa-angle-right"></i>
-                </li>
-                <li class="item">
-                    <i class="fa-solid fa-copy"></i>
-                    <span>Copy Link</span>
-                </li>
-                <li class="item">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                    <span>Edit</span>
-                </li>
-                <li class="item">
-                    <i class="fa-solid fa-trash"></i>
-                    <span>Delete</span>
-                </li>
-                <div class="setting">
-                    <li class="item">
-                        <i class="fa-solid fa-gear"></i>
-                        <span>Setting</span>
-                    </li>
-                </div>
+      <div class="content">
+        <ul class="menu">
+          <li class="item">
+            <i class="fa-solid fa-eye"></i>
+            <span>Preview</span>
+          </li>
+          <li class="item share">
+            <div>
+              <i class="fa-solid fa-share"></i>
+              <span>Share</span>
+            </div>
+            <i class="fa-solid fa-angle-right"></i>
+            <ul class="share-menu">
+              <li class="item">
+                <i class="fa-brands fa-instagram"></i>
+                <span>instagram</span>
+              </li>
+              <li class="item">
+                <i class="fa-brands fa-twitter"></i>
+                <span>twitter</span>
+              </li>
+              <li class="item">
+                <i class="fa-brands fa-telegram"></i>
+                <span>telegram</span>
+              </li>
             </ul>
-        </div>
+          </li>
+          <li class="item">
+            <i class="fa-solid fa-copy"></i>
+            <span>Copy Link</span>
+          </li>
+          <li class="item">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <span>Edit</span>
+          </li>
+          <li class="item">
+            <i class="fa-solid fa-trash"></i>
+            <span>Delete</span>
+          </li>
+          <div class="setting">
+            <li class="item">
+              <i class="fa-solid fa-gear"></i>
+              <span>Setting</span>
+            </li>
+          </div>
+        </ul>
+      </div>
     </div>
 
     <script src="./script.js"></script>
-    <script src="https://kit.fontawesome.com/f17bf0e778.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/f17bf0e778.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

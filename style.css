@@ -43,3 +43,23 @@ body{
     margin: 10px 0;
     padding-top: 10px;
 }
+.menu .share{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .share .share-menu{
+    list-style-type: none;
+    position: absolute;
+    left: 260px;
+    width: 170px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    visibility: hidden;
+}
+.menu .share:hover .share-menu{
+   visibility: visible;
+}
